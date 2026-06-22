@@ -2,15 +2,7 @@
 
 
 
-This repository contains scripts for the SmoCuDa Predictive T-maze ERP experiment.
-
-
-
-The predictive T-maze task is designed in E-Prime and is not included in this repository. Related tasks, including the rating task and passive viewing task, are also coded in E-Prime and are not included here.
-
-
-
-For more information on the predictive T-maze task, see: Baker, T. E., \& Holroyd, C. B. (2009). Which way do I go? Neural activation in response to feedback and spatial processing in a virtual T-maze. Cerebral Cortex, 19(8), 1708-1722.
+The purpose of this repository is to hold all relevant scripts for the SmoCuDa Predictive T-maze task. The T-maze task is designed in E-prime and is not available in this repository. Other related tasks include the rating task and the passive viewing task. These are also coded in E-prime software and not available within this repository. For more information on the predictive T-maze task, see the following reference: Baker, T. E., \& Holroyd, C. B. (2009). Which way do I go? Neural activation in response to feedback and spatial processing in a virtual T-maze. Cerebral cortex, 19(8), 1708-1722.
 
 
 
@@ -22,39 +14,35 @@ All scripts are designed for use with MATLAB R2025A.
 
 
 
-GAPED database materials are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. For use of this image database, you must provide proper citation, which can be found at:
-
-https://www.unige.ch/cisa/research/materials-and-online-research/research-material
+\- \*\*GAPED database materials\*\* are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. For use of this image database, you must provide proper citation, which can be found at (URL: https://www.unige.ch/cisa/research/materials-and-online-research/research-material).
 
 
 
-SmoCuDa database materials are reported as Creative Commons/open access. The proper citation can be found at:
-
-https://smocuda.github.io/
+\- \*\*SmoCuDa database materials\*\* are reported as Creative Commons/open access. The proper citation can be found at (URL: https://smocuda.github.io/).
 
 
 
-These images should be used only for research purposes. GAPED also requires that use is strictly non-commercial. Mass publication or posting online may create confounds for studies that require novel stimuli.
+\- Please remember that these images should be used only for research purposes. GAPED also requires that use is strictly non-commercial. Mass publication or posting online may cause confounds for studies that require novel stimuli.
 
 
 
-The images are not redistributed in this repository.
+\- The images are not redistributed in this repository.
 
 
 
-If you use these image databases, please refer to the applicable terms on the respective websites and within the respective publications.
+\- If you do choose to use these repositories, please refer to applicable terms on the respective websites and within the respective publications.
 
 
 
-This repository is still in progress. Not all referenced scripts are available.
+\- \*\*This repository is still in progress. Not all referenced scripts are available.\*\*
 
 
 
-\## Suggested Workflow
+\## Suggested Work Flow
 
 
 
-Download the SmoCuDa and GAPED images and rating files.
+\- \*\*Download\*\* the SmoCuDa and GAPED images and rating files.
 
 
 
@@ -62,7 +50,7 @@ Download the SmoCuDa and GAPED images and rating files.
 
 
 
-Create a folder of random images to use in the rating task. The purpose of this step is to reduce participant fatigue by limiting the full image set to a random selection.
+\- \*\*Create\*\* folder of random images that will be used in the rating task. The purpose of this is to reduce participant fatigue by limiting the entire repository to a random selection.
 
 
 
@@ -70,23 +58,7 @@ Create a folder of random images to use in the rating task. The purpose of this 
 
 
 
-Classify the images using the Discriminant\_Analysis\_SmoCuDa and Discriminant\_Analysis\_GAPED scripts.
-
-
-
-These scripts create folders for the two images with the highest posterior probability for each dimension.
-
-
-
-For SmoCuDa, the dimensions are urge to smoke, arousal, and valence.
-
-
-
-For GAPED, the dimensions are arousal and valence.
-
-
-
-These images are used in the predictive T-maze task.
+\- \*\*Classify\*\* the images using `Discriminant\_Analysis\_SmoCuDa` and `Discriminant\_Analysis\_GAPED` respectively. This script will create folders for the two images with the highest posterior probability for each dimension (urge to smoke, arousal, and valence for SmoCuDa; arousal and valence for GAPED). These are the images that will be used in the predictive T-maze task.
 
 
 
@@ -94,5 +66,5 @@ These images are used in the predictive T-maze task.
 
 
 
-Identify individualized cues for the passive viewing task using the PersonalizedRatings\_SmoCuDa or PersonalizedRatings\_GAPED scripts.
+\- \*\*Identify\*\* individualized cues for passive viewing task using the `PersonalizedRatings\_SmoCuDa` or the `PersonalizedRatings\_GAPED` scripts, respectively.
 
