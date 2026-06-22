@@ -15,11 +15,11 @@ All scripts are designed for use with MATLAB R2025A
 
 
 * \*\*GAPED database materials\*\* are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. For use of this image database, you must provide proper citation, which can be found at (URL: https://www.unige.ch/cisa/research/materials-and-online-research/research-material).
-* \*\*SmoCuDa database materials\*\* are reported as Creative Commons/open access. The proper citation can be found at (URL: https://smocuda.github.io/). 
+* \*\*SmoCuDa database materials\*\* are reported as Creative Commons/open access. The proper citation can be found at (URL: https://smocuda.github.io/).
 * Please remember that these images should be used only for research purposes. GAPED also requires that use is strictly non-commercial. Mass publication or posting online may cause confounds for studies that require novel stimuli.
 * The images are not redistributed in this repository.
 * If you do choose to use these repositories, please refer to applicable terms on the respective websites and within the respective publications.
-* \*\*This repository is still in progress. Not all referenced scripts are available.
+* \*\*This repository is still in progress. Not all referenced scripts are available.\*\*
 
 
 
