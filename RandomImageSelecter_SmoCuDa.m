@@ -1,9 +1,9 @@
-%% Generates random list of 100 SmoCuDa images (with seed for replicability)
+%% Generates random list of 50 SmoCuDa images (with seed for replicability)
 
 imageDir = ['C:\Users\Admin\OneDrive - Rutgers University\Projects\SmoCuDa\' ...
     'Cue Reactivity\SmoCuDa_images\'];
 destDir   = ['C:\Users\Admin\OneDrive - Rutgers University\Projects\SmoCuDa\' ...
-    'Materials\ImageSubsets\RatingImages_SmoCuDa\'];
+    'Materials\ImageSubsets\SmoCuDa_RatingImages\'];
 
 % Read ratings table
 addpath 'C:\Users\Admin\OneDrive - Rutgers University\Projects\SmoCuDa\Materials\ImageSubsets\';
@@ -17,7 +17,7 @@ allNums = ratings.ImageNr;
 
 % Exclude task cues
 % note: also excluded 114 as no cigarette/smoke was pictured
-exclude = [65, 245, 5, 120, 24, 2, 114, 241];
+exclude = [4, 65, 110, 122, 38, 107];
 allowed = setdiff(allNums, exclude);
 
 % Pick 50 unique numbers from allowed pool
